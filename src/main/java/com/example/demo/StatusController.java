@@ -9,6 +9,6 @@ public class StatusController {
 
     @GetMapping("/api/status")
     public String getStatus() {
-        return "Sistem Güncellendi aktif: " + LocalDateTime.now() + " - CI/CD Adımları Başladı.";
+        return "aktif: " + LocalDateTime.now() + " - CI/CD Adımları Başladı.";
     }
 }
